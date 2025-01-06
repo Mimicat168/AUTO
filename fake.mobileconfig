@@ -2,20 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>PayloadContent</key>
-    <array>
-        <dict>
-            <key>PayloadType</key>
-            <string>com.apple.mobileconfig</string>
-        </dict>
-    </array>
-    <key>PayloadDisplayName</key>
-    <string>Fake Config</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
     <key>PayloadIdentifier</key>
     <string>tw.yhd.fakeconfig</string>
     <key>PayloadUUID</key>
-    <string>12345678-1234-1234-1234-1234567890AB</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
+    <string>99999999-8888-7777-6666-555555555555</string>
+    <key>PayloadDisplayName</key>
+    <string>Fake Config</string>
+    <key>PayloadDescription</key>
+    <string>此檔案用於觸發 WebClip 刷新，無需安裝。</string>
+    <key>PayloadOrganization</key>
+    <string>YHD</string>
 </dict>
 </plist>
